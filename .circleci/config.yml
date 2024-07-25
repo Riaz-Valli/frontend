@@ -43,7 +43,7 @@ jobs:
           name: deploy
           command: '#e.g. ./deploy.sh'
 
-            sonarqube:
+  sonarqube:
     working_directory: ~/build
     docker:
       - image: sonarsource/sonar-scanner-cli
